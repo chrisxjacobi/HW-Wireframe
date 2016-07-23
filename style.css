@@ -1,0 +1,36 @@
+body {
+	background-color: #777
+	width:960px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px
+	text-align: center;
+	display: block;
+
+}
+
+header, nav, section, aside, footer {
+
+	color: #ebebeb
+	width: 495px;
+}
+
+section {
+	float: left;
+}
+
+aside {
+	float: right;
+
+}
+
+article {
+
+}
+
+.clear {
+
+}
+
+h1, p {
+
+}
