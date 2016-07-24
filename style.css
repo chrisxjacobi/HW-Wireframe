@@ -1,49 +1,36 @@
 body {
 	background-color: #777;
 	width: 960px;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: "Arial", "Helvetcia-Neue", Helvetica, sans-serif;
 	font-size: 18px;
 	text-align: center;
+}
+
+header, nav, #section, aside, footer {
+	background-color: #ebebeb;
 	color: #777;
 }
 
-header, nav, section, aside, footer {
-	background-color: #777
-	display: block;
-	text-align: center; 
-	margin: 10px;
-	padding: 10px;
-}
-
-section {
-	display: block;
+#section {
 	width: 495px;
 	float: left;
-	background-color: #ebebeb;
 }
 
 aside {
+	width: 30%;
 	float: right;
-	width: 30%
 }
 
-article {
-	display: block;
+#article {
 	background-color: #777;
-	padding: 10px;
-	margin: 10px;
+	color: #ebebeb;
 }
 
 .clear {
-	clear: both;
+ clear: both;
 }
 
-h1, h2, h3, p {
+#under {
 	background-color: #ebebeb;
-	text-align: center;
-	padding: 10px;
-}
-
-#whole {
-	clear: both;
+	color: #777;
 }
