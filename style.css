@@ -7,23 +7,31 @@ body {
 }
 
 header, nav, #section, aside, footer {
+	display: block;
 	background-color: #ebebeb;
 	color: #777;
+	margin: 10px;
+
 }
 
 #section {
+	display: block;
 	width: 495px;
 	float: left;
+	overflow: hidden;
 }
 
 aside {
-	width: 30%;
+	width: 400px;
+	height: 250px;
 	float: right;
+	overflow: hidden;
 }
 
 #article {
 	background-color: #777;
 	color: #ebebeb;
+	padding: 10px;
 }
 
 .clear {
@@ -33,4 +41,14 @@ aside {
 #under {
 	background-color: #ebebeb;
 	color: #777;
+	padding: 5px;
+	margin: 10px;
 }
+
+#undertwo {
+	background-color: #ebebeb;
+	color: #777;
+	padding: 5px;
+	margin: 10px;
+}
+
