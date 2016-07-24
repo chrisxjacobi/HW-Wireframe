@@ -11,7 +11,7 @@ header, nav, #section, aside, footer {
 	background-color: #ebebeb;
 	color: #777;
 	margin: 10px;
-
+	padding: 10px;
 }
 
 #section {
@@ -22,8 +22,8 @@ header, nav, #section, aside, footer {
 }
 
 aside {
-	width: 400px;
-	height: 250px;
+	width: 380px;
+	height: 280px;
 	float: right;
 	overflow: hidden;
 }
